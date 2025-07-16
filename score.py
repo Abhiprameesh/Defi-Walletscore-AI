@@ -1,5 +1,5 @@
 def compute_credit_score(features):
-    score = 500  # neutral baseline
+    score = 500  
 
     score += features["deposit_sum"] * 0.05
     score += features["repay_sum"] * 0.1
