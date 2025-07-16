@@ -3,3 +3,4 @@ def safe_float(value):
         return float(value)
     except (ValueError, TypeError):
         return 0.0
+#To use in feature.py
