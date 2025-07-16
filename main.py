@@ -13,7 +13,7 @@ print("✅ JSON loaded. Total transactions:", len(transactions))
 wallet_dict = {}
 
 for tx in transactions:
-    wallet = tx.get("userWallet")  # ✅ FIXED FIELD
+    wallet = tx.get("userWallet")  
     if wallet:
         wallet_dict.setdefault(wallet, []).append(tx)
 

@@ -10,7 +10,7 @@ def extract_features(transactions):
     for tx in transactions:
         action = tx.get("action", "").lower()
         amount_raw = tx.get("actionData", {}).get("amount", 0)
-        amount = safe_float(amount_raw) / 1e6  # Adjust for USDC-style decimals (6)
+        amount = safe_float(amount_raw) / 1e6 
 
         if action == "deposit":
             deposit_sum += amount

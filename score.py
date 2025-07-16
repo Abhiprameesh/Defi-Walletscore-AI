@@ -6,4 +6,4 @@ def compute_credit_score(features):
     score -= features["borrow_sum"] * 0.07
     score -= features["liquidation_count"] * 50
 
-    return int(min(1000, max(0, score)))  # clip between 0 and 1000
+    return int(min(1000, max(0, score)))  # clip b/w 0 and 1000
