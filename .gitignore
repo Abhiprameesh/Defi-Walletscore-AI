@@ -1,0 +1,4 @@
+user_transactions.json
+*.csv
+venv/
+*.dll
