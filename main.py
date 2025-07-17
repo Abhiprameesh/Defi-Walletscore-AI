@@ -3,7 +3,7 @@ import pandas as pd
 from features import extract_features
 from score import compute_credit_score
 
-# Step 1: Load JSON data
+# Load JSON data
 with open("user_transactions.json", "r") as f:
     transactions = json.load(f)
 
