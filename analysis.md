@@ -32,7 +32,7 @@ Your task was to:
 📌 Total Wallets Scored: 3469
 
 ## Score Distribution Histogram
-![alt text](<score_distribution.png>)
+![alt text](image.png)
 
 ---
 
